@@ -18,7 +18,9 @@
       "WebSearch",
       "Bash(cp -f dist/index.html .)",
       "Bash(cp -f dist/assets/* assets/)",
-      "Bash(mkdir -p assets && cp dist/index.html . && cp dist/assets/* assets/ && git add -A && git commit -m \"修复资源路径\" && git push github master 2>&1)"
+      "Bash(mkdir -p assets && cp dist/index.html . && cp dist/assets/* assets/ && git add -A && git commit -m \"修复资源路径\" && git push github master 2>&1)",
+      "Bash(rm -rf dist assets && npm run build 2>&1 && mkdir -p assets && cp dist/index.html . && cp dist/assets/* assets/)",
+      "Bash(mkdir -p assets && cp dist/index.html . && cp dist/assets/* assets/ && git add -A && git commit -m \"修复为相对路径\" && git push github master 2>&1)"
     ],
     "additionalDirectories": [
       "e:\\Project\\New Project",
