@@ -10,10 +10,15 @@
       "Bash(git init *)",
       "Bash(git add *)",
       "Bash(git commit *)",
-      "Bash(git config *)"
+      "Bash(git config *)",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(git pull *)",
+      "Bash(cp dist/index.html . && mkdir -p assets && cp dist/assets/* assets/ && git add -A && git commit -m \"调整目录结构用于Gitee Pages\" && git push 2>&1)"
     ],
     "additionalDirectories": [
-      "e:\\Project\\New Project"
+      "e:\\Project\\New Project",
+      "e:\\Project\\New Project\\dist\\assets"
     ]
   }
 }
