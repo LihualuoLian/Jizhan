@@ -15,11 +15,15 @@
       "Bash(git push *)",
       "Bash(git pull *)",
       "Bash(cp dist/index.html . && mkdir -p assets && cp dist/assets/* assets/ && git add -A && git commit -m \"调整目录结构用于Gitee Pages\" && git push 2>&1)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(cp -f dist/index.html .)",
+      "Bash(cp -f dist/assets/* assets/)",
+      "Bash(mkdir -p assets && cp dist/index.html . && cp dist/assets/* assets/ && git add -A && git commit -m \"修复资源路径\" && git push github master 2>&1)"
     ],
     "additionalDirectories": [
       "e:\\Project\\New Project",
-      "e:\\Project\\New Project\\dist\\assets"
+      "e:\\Project\\New Project\\dist\\assets",
+      "E:\\Project\\New Project\\dist\\assets"
     ]
   }
 }
